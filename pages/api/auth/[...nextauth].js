@@ -9,11 +9,7 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
-  jwt:{
-    encrytpion:true,
-   
-  },
-  secret:process.env.secret,
+  secret:process.env.SECRET,
 })
 
 
